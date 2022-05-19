@@ -3,7 +3,7 @@ go 1.17
 module github.com/cri-o/cri-o
 
 require (
-	github.com/BurntSushi/toml v0.4.1
+	github.com/BurntSushi/toml v1.1.0
 	github.com/Microsoft/go-winio v0.5.1
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/containerd/cgroups v1.0.2
@@ -54,7 +54,7 @@ require (
 	github.com/soheilhy/cmux v0.1.5
 	github.com/stretchr/testify v1.7.0
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/urfave/cli/v2 v2.7.1
 	github.com/vishvananda/netlink v1.1.1-0.20210811191823-e1a867c6b452
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.28.0
 	go.opentelemetry.io/otel v1.3.0
@@ -84,6 +84,7 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d // indirect
+	github.com/antzucaro/matchr v0.0.0-20210222213004-b04723ef80f0 // indirect
 	github.com/aws/aws-sdk-go v1.38.49 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
@@ -102,7 +103,7 @@ require (
 	github.com/containers/libtrust v0.0.0-20190913040956-14b96171aa3b // indirect
 	github.com/containers/psgo v1.7.1 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/disiqueira/gotree/v3 v3.0.2 // indirect
 	github.com/docker/docker v20.10.11+incompatible // indirect
